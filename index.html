@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Samantha's Hangman Game</title>
+    <!-- Google Font's Link -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <!-- Style CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+     <!--Reset CSS Link  -->
+    <link rel="stylesheet" href="assets/css/reset.css"> 
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Superhero Hangman!</h1>
+            <p>Guess A Superhero...</p>
+        </div>
+    
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">Superhero Name</h1>
+            </div>
+            <div class="panel-body">
+                <h2 id="superheroName"></h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">Wrong Guess: 
+                        <span id="wrongGuess"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body"> Guesses Left: 
+                        <span id="guessesLeft"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">Wins: 
+                        <span id="winCount"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">Losses: 
+                        <span id="lossCount"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>        
+    </div>
+
+    
+    <!-- // link to JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- link to Javascript -->
+    <script src="assets/javascript/game.js">
+    </script>
+    
+</body>
+</html>
