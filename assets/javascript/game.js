@@ -33,6 +33,7 @@ function startGame() {
     // the number of blank spaces are obtained from the number of letters in the word
     numOfBlanks = lettersInWord.length;
     
+    
 
     // Resets at the start of each round
 
