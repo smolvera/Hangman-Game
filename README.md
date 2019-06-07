@@ -3,7 +3,8 @@ Super Hero Hangman. The User has 10 chances to guess the correct letter in a sup
 
 Check out the Deployed version: [Superhero Hangman](https://smolvera.github.io/Hangman-Game/)
 
-![alt text]("https://smolvera.github.io/Hangman-Game/assets/images/superheroHangman2.jpg "Superhero Hangman Game")
+![Superhero Hangman Game Picture]("https://smolvera.github.io/Hangman-Game/assets/images/superheroHangman2.jpg)
+
 ## Technologies Used
  - HTML
  - Bootstrap CDN 
