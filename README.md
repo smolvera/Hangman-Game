@@ -3,13 +3,16 @@ Super Hero Hangman. The User has 10 chances to guess the correct letter in a sup
 
 Check out the Deployed version: [Superhero Hangman](https://smolvera.github.io/Hangman-Game/)
 
-
+![alt text]("https://smolvera.github.io/Hangman-Game/assets/images/superheroHangman2.jpg "Superhero Hangman Game")
 ## Technologies Used
- - HTML, Bootstrap, CSS
+ - HTML
+ - Bootstrap CDN 
+ - CSS
+ - Bootswatch CDN
  - JavaScript
  
 ### Further Development:
-- Only show characters for the letters in the names not the spaces. 
+- Only add underspaces for characters in word not spaces. 
 
 #### Contributing Team:
 

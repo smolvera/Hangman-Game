@@ -9,4 +9,8 @@ body {
 
 .jumbotron, .panel-title, .panel-body{
   text-align: center;
+  background-color: silver;
+  color: white;
+  font-size: 36px;
 }
+

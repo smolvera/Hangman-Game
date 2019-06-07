@@ -20,8 +20,13 @@ var winCount = "";  //winCount
 var lossCount = ""; //lossCount
 var guessesLeft = 10;  //guessesLeft
 
+//Game Buttons
+var startButton = document.getElementById("startGameBtn");
+var resetButton = document.getElementById("resetGameBtn");
 // Functions
 // --------------------------------------------------------------------------------------
+
+
 
 // Fuction for computer toselect a random word from SuperHero array
 
@@ -125,7 +130,16 @@ function roundComplete() {
 //  Main Processes
 // --------------------------------------------------------------------------------
 
-startGame();
+// Run Start Game when Start Button is clicked
+startButton.onclick = function clickedStartBtn() {
+    startGame();
+};
+
+// Reset Game and Run Start Game when Reset Button is clicked
+resetButton.onclick = function clickedResetBtn() {
+    startGame();
+}
+
 
 // Register key clicks
 
