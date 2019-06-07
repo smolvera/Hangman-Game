@@ -14,3 +14,8 @@ body {
   font-size: 36px;
 }
 
+#panel-body {
+  min-height: 65px;
+  max-height: 65px;
+}
+
